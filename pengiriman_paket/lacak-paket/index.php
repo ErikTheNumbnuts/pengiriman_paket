@@ -17,7 +17,7 @@ $conn = require "config/koneksi_db.php";
     <?php include("part/topbar.php") ?>
 
     <div class="breadcrumb-wrapper">
-        <a href="home.php">Beranda</a> &gt;&gt; Lacak Paket
+        <a href="http://localhost/pengiriman_paket">Beranda</a> &gt;&gt; Lacak Paket
     </div>
 
     <div class="content-wrapper">
@@ -46,10 +46,10 @@ $conn = require "config/koneksi_db.php";
 
                         echo "
                         <div class='package-container'>
-                            <p><strong>Date Received:</strong> $Tglditerima</p>
-                            <p><strong>Receiver Name:</strong> $penerima</p>
-                            <p><strong>Contact:</strong> $kontak</p>
-                            <p><strong>Weight (KG):</strong> $berat</p>
+                            <p><strong>Tanggal Diterima:</strong> $Tglditerima</p>
+                            <p><strong>Nama Penerima:</strong> $penerima</p>
+                            <p><strong>Nomor:</strong> $kontak</p>
+                            <p><strong>Berat (KG):</strong> $berat</p>
                             <p><strong>Detail:</strong> $detail</p>
                             <p><strong>Status:</strong> $status</p>
                         </div>";
