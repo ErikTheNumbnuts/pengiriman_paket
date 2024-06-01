@@ -1,0 +1,157 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    float: left;
+    display: inline-block;
+}
+
+.logo a img {
+    max-height: 80px;
+    width: auto;
+    margin: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #f5f9fa;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #737D88;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: space-between; /* Menyebar konten: teks di kiri, gambar di kanan */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    order: 1; /* Memastikan teks selalu di sisi kiri */
+}
+
+section img {
+    width: 40%; /* Mengatur lebar gambar menjadi 50% dari lebar kontainernya */
+    height: auto; /* Menjaga rasio aspek gambar */
+    order: 2; /* Jika kamu masih ingin gambar di sisi kanan */
+    max-width: 50%; /* Opsional: memastikan gambar tidak pernah lebih besar dari kontainernya */
+}
+
+h2 {
+    font-family: 'Copperplate', fantasy;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    color: black;
+    line-height: 50px;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: black;
+    line-height: 25px;
+    width: 100%;
+}
+
+.info-table {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    color: black;
+    line-height: 25px;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 5px;
+}
+
+
+body {
+    background-color: #f5f9fa;
+}
+
+a.tbl-pink {
+    background: #D41095;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 15px 20px 15px 20px;
+    color: #E8F1F5;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+a.tbl-pink:hover{
+    background: #F85CB5;
+    color: #FFCF3E;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
