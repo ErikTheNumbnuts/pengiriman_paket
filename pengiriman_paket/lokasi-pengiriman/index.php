@@ -17,7 +17,7 @@ $conn = require "config/koneksi_db.php";
     <?php include("part/topbar.php") ?>
     
     <div class="breadcrumb-wrapper">
-        <a href="home.php">Beranda</a> &gt;&gt; Lokasi Pengiriman
+        <a href="http://localhost/pengiriman_paket">Beranda</a> &gt;&gt; Lokasi Pengiriman
     </div>
 
     <div class="content-wrapper">
